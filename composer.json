@@ -1,0 +1,27 @@
+{
+  "require": {
+    "rozehnal/environment-parameters": "0.x-dev"
+  },
+  "scripts": {
+    "build": [
+      "Paro\\BuildParametersHandler\\ParametersHandler::buildParameters"
+    ]
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/rozehnal/environment-parameters"
+    }
+  ],
+  "extra": {
+    "build-parameters": {
+      "build-folder": "build",
+      "incenteev-parameters": {
+        "file": "parameters.yml",
+        "env-map": {
+          "path": "PATHx"
+        }
+      }
+    }
+  }
+}
