@@ -23,7 +23,8 @@
         }
       ],
       "incenteev-parameters": {
-        "file": "parameters.yml",
+        "file": "{env}/parameters.yml",
+        "name": "parameters.yml",
         "env-map": {
           "path": "PATHx"
         }

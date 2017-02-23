@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "34768bcab9520da6dc4324e1f1c3f20a",
-    "content-hash": "4a99e65b72c0a64c358ef781faaeb985",
+    "hash": "2981b4920d6170539870a9b006300698",
+    "content-hash": "6570bf1a1ac7f34fb4db15d9e7f0307b",
     "packages": [
         {
             "name": "incenteev/composer-parameter-handler",
@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rozehnal/environment-parameters.git",
-                "reference": "f3bb5d2c69632ba8a15d1ce240a1d57ce344744c"
+                "reference": "4b930933dcdf851a2d3c72821a5161d7af7440e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rozehnal/environment-parameters/zipball/f3bb5d2c69632ba8a15d1ce240a1d57ce344744c",
-                "reference": "f3bb5d2c69632ba8a15d1ce240a1d57ce344744c",
+                "url": "https://api.github.com/repos/rozehnal/environment-parameters/zipball/4b930933dcdf851a2d3c72821a5161d7af7440e7",
+                "reference": "4b930933dcdf851a2d3c72821a5161d7af7440e7",
                 "shasum": ""
             },
             "require": {
@@ -109,7 +109,7 @@
                 "source": "https://github.com/rozehnal/environment-parameters/tree/master",
                 "issues": "https://github.com/rozehnal/environment-parameters/issues"
             },
-            "time": "2017-02-23 11:20:15"
+            "time": "2017-02-23 11:53:42"
         },
         {
             "name": "symfony/yaml",
