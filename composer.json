@@ -16,6 +16,12 @@
   "extra": {
     "build-parameters": {
       "build-folder": "build",
+      "files": [
+        {
+          "path": "{env}/key.{env}.p12",
+          "name": "key.p12"
+        }
+      ],
       "incenteev-parameters": {
         "file": "parameters.yml",
         "env-map": {

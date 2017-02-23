@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "13f658163f5c0292aa54b19655998818",
+    "hash": "34768bcab9520da6dc4324e1f1c3f20a",
+    "content-hash": "4a99e65b72c0a64c358ef781faaeb985",
     "packages": [
         {
             "name": "incenteev/composer-parameter-handler",
@@ -55,7 +56,7 @@
             "keywords": [
                 "parameters management"
             ],
-            "time": "2015-11-10T17:04:01+00:00"
+            "time": "2015-11-10 17:04:01"
         },
         {
             "name": "rozehnal/environment-parameters",
@@ -63,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rozehnal/environment-parameters.git",
-                "reference": "f1f52c47eee6aeb1d185978fe91fb140d0dab076"
+                "reference": "f3bb5d2c69632ba8a15d1ce240a1d57ce344744c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rozehnal/environment-parameters/zipball/f1f52c47eee6aeb1d185978fe91fb140d0dab076",
-                "reference": "f1f52c47eee6aeb1d185978fe91fb140d0dab076",
+                "url": "https://api.github.com/repos/rozehnal/environment-parameters/zipball/f3bb5d2c69632ba8a15d1ce240a1d57ce344744c",
+                "reference": "f3bb5d2c69632ba8a15d1ce240a1d57ce344744c",
                 "shasum": ""
             },
             "require": {
@@ -108,7 +109,7 @@
                 "source": "https://github.com/rozehnal/environment-parameters/tree/master",
                 "issues": "https://github.com/rozehnal/environment-parameters/issues"
             },
-            "time": "2017-02-22 21:32:12"
+            "time": "2017-02-23 11:20:15"
         },
         {
             "name": "symfony/yaml",
@@ -163,7 +164,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-16T22:46:52+00:00"
+            "time": "2017-02-16 22:46:52"
         }
     ],
     "packages-dev": [],
