@@ -18,7 +18,7 @@
       "build-folder": "build",
       "files": [
         {
-          "path": "{env}/key.{env}.p12",
+          "file": "{env}/key.{env}.p12",
           "name": "key.p12"
         }
       ],
