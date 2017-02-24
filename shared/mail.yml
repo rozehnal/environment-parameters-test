@@ -1,0 +1,3 @@
+parameters:
+  mail.login: login
+  mail.password: password

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c64445c3bb86ca8205c5b2dd5d9a12be",
+    "content-hash": "1c8b09af309143ed54b708b0b590b9c8",
     "packages": [
         {
             "name": "incenteev/composer-parameter-handler",
@@ -63,12 +63,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rozehnal/environment-parameters.git",
-                "reference": "f58f76356f49c711d90666485b191afbb696e45d"
+                "reference": "011ecd5bcae93e12ad74d1caec903126177df0e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rozehnal/environment-parameters/zipball/f58f76356f49c711d90666485b191afbb696e45d",
-                "reference": "f58f76356f49c711d90666485b191afbb696e45d",
+                "url": "https://api.github.com/repos/rozehnal/environment-parameters/zipball/011ecd5bcae93e12ad74d1caec903126177df0e7",
+                "reference": "011ecd5bcae93e12ad74d1caec903126177df0e7",
                 "shasum": ""
             },
             "require": {
@@ -77,7 +77,8 @@
                 "symfony/yaml": "~2.3|~3.0"
             },
             "require-dev": {
-                "composer/composer": "1.0.*@dev"
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "^4.8"
             },
             "type": "library",
             "extra": {
@@ -87,9 +88,10 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Paro\\BuildParametersHandler\\": ""
+                    "Paro\\BuildParametersHandler\\": "src"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -104,11 +106,7 @@
             "keywords": [
                 "parameters management"
             ],
-            "support": {
-                "source": "https://github.com/rozehnal/environment-parameters/tree/master",
-                "issues": "https://github.com/rozehnal/environment-parameters/issues"
-            },
-            "time": "2017-02-23 19:51:16"
+            "time": "2017-02-24 23:15:10"
         },
         {
             "name": "symfony/yaml",

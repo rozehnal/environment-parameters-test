@@ -1,0 +1,3 @@
+parameters:
+    infra: ip
+    database: ip

@@ -1,2 +1,7 @@
+imports:
+    - { resource: '../shared/shared.yml' }
+    - { resource: 'infra.yml' }
+
 parameters:
   path: prod
+  shared: changed_for_prod

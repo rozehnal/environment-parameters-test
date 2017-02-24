@@ -1,2 +1,5 @@
+imports:
+    - { resource: '../shared/shared.yml' }
+
 parameters:
   path: dev

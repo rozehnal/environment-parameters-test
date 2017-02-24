@@ -1,0 +1,5 @@
+imports:
+  - {resource: mail.yml}
+
+parameters:
+    shared: shared
