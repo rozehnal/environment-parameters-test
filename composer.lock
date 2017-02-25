@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1c8b09af309143ed54b708b0b590b9c8",
+    "content-hash": "fc4199d49bb99feda0b7140eb4e45b48",
     "packages": [
         {
             "name": "incenteev/composer-parameter-handler",
@@ -63,12 +63,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rozehnal/environment-parameters.git",
-                "reference": "011ecd5bcae93e12ad74d1caec903126177df0e7"
+                "reference": "5f8cc7c8aea5b3fbc841faf236b0528a54b432d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rozehnal/environment-parameters/zipball/011ecd5bcae93e12ad74d1caec903126177df0e7",
-                "reference": "011ecd5bcae93e12ad74d1caec903126177df0e7",
+                "url": "https://api.github.com/repos/rozehnal/environment-parameters/zipball/5f8cc7c8aea5b3fbc841faf236b0528a54b432d6",
+                "reference": "5f8cc7c8aea5b3fbc841faf236b0528a54b432d6",
                 "shasum": ""
             },
             "require": {
@@ -106,7 +106,7 @@
             "keywords": [
                 "parameters management"
             ],
-            "time": "2017-02-24 23:15:10"
+            "time": "2017-02-25 20:45:30"
         },
         {
             "name": "symfony/yaml",

@@ -8,7 +8,7 @@
     ]
   },
   "extra": {
-    "build-parameters": {
+    "environment-parameters": {
       "build-folder": "build",
       "files": [
         {
