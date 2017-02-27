@@ -4,7 +4,7 @@
   },
   "scripts": {
     "build": [
-      "Paro\\BuildParametersHandler\\ParametersHandler::buildParameters"
+      "Paro\\EnvironmentParameters\\ParametersHandler::buildParameters"
     ]
   },
   "extra": {

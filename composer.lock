@@ -4,6 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+    "hash": "9e323e5ea8b10a2b91f1b98242ee83e1",
     "content-hash": "fc4199d49bb99feda0b7140eb4e45b48",
     "packages": [
         {
@@ -55,7 +56,7 @@
             "keywords": [
                 "parameters management"
             ],
-            "time": "2015-11-10T17:04:01+00:00"
+            "time": "2015-11-10 17:04:01"
         },
         {
             "name": "rozehnal/environment-parameters",
@@ -63,17 +64,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rozehnal/environment-parameters.git",
-                "reference": "5f8cc7c8aea5b3fbc841faf236b0528a54b432d6"
+                "reference": "4c9b6d25d4516a806b0d4de4e7b5486c3b9eab9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rozehnal/environment-parameters/zipball/5f8cc7c8aea5b3fbc841faf236b0528a54b432d6",
-                "reference": "5f8cc7c8aea5b3fbc841faf236b0528a54b432d6",
+                "url": "https://api.github.com/repos/rozehnal/environment-parameters/zipball/4c9b6d25d4516a806b0d4de4e7b5486c3b9eab9b",
+                "reference": "4c9b6d25d4516a806b0d4de4e7b5486c3b9eab9b",
                 "shasum": ""
             },
             "require": {
                 "incenteev/composer-parameter-handler": "~2.0",
                 "php": ">=5.3.3",
+                "symfony/filesystem": "~2.8|~3.2",
                 "symfony/yaml": "~2.3|~3.0"
             },
             "require-dev": {
@@ -88,7 +90,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Paro\\BuildParametersHandler\\": "src"
+                    "Paro\\EnvironmentParameters\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -106,7 +108,56 @@
             "keywords": [
                 "parameters management"
             ],
-            "time": "2017-02-25 20:45:30"
+            "time": "2017-02-27 12:04:18"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "v3.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/filesystem.git",
+                "reference": "a0c6ef2dc78d33b58d91d3a49f49797a184d06f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/a0c6ef2dc78d33b58d91d3a49f49797a184d06f4",
+                "reference": "a0c6ef2dc78d33b58d91d3a49f49797a184d06f4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Filesystem\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Filesystem Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-01-08 20:47:33"
         },
         {
             "name": "symfony/yaml",
@@ -161,7 +212,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-16T22:46:52+00:00"
+            "time": "2017-02-16 22:46:52"
         }
     ],
     "packages-dev": [],
